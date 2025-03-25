@@ -1,7 +1,10 @@
+import DestinationContainer from "./components/DestinationContainer"
+
 function App() {
   return (
-    <div>
+    <div className="app-container">
       {/* Your code here */}
+      <DestinationContainer/>
     </div>
   )
 }
